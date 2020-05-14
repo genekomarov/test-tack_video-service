@@ -1,0 +1,13 @@
+.wrapper {
+    grid-area: tags;
+    background: burlywood;
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    margin: 0 10px;
+
+    font-weight: 500;
+    font-size: 28px;
+}

@@ -1,22 +1,13 @@
 import React from "react";
+import style from './Main.module.css'
+import Novelty from "./Novelty/Novelty";
+import Genre from "./Genre/Genre";
 
 const Main = () => {
     return (
-        <div className={"testDiv"}>main
-            <div className={"testDiv"}>section
-                <div className={"testDiv"}>h2 Новинки</div>
-                <div className={"testDiv"}>Фильм</div>
-                <div className={"testDiv"}>Фильм</div>
-                <div className={"testDiv"}>Фильм</div>
-                <div className={"testDiv"}>Фильм</div>
-            </div>
-            <div className={"testDiv"}>section
-                <div className={"testDiv"}>h2 Жанры</div>
-                <div className={"testDiv"}>Жанр</div>
-                <div className={"testDiv"}>Жанр</div>
-                <div className={"testDiv"}>Жанр</div>
-                <div className={"testDiv"}>Жанр</div>
-            </div>
+        <div className={style.wrapper}>
+            <Novelty />
+            <Genre />
         </div>
     )
 };

@@ -1,0 +1,5 @@
+.wrapper {
+    grid-area: footer;
+    background: darkgrey;
+    overflow: hidden;
+}

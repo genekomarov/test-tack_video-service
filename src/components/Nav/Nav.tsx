@@ -1,11 +1,12 @@
 import React from "react";
+import style from './Nav.module.css';
 
 const Nav = () => {
     return (
-        <div className={"testDiv"}>nav ul tabs
-            <div className={"testDiv"}>li Фильмы</div>
-            <div className={"testDiv"}>li Телеканалы</div>
-        </div>
+        <nav className={style.wrapper}>
+            <div className={style.tab}>Фильмы</div>
+            <div className={style.tab}>Телеканалы</div>
+        </nav>
     )
 };
 

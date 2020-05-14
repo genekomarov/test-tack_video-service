@@ -1,0 +1,6 @@
+.wrapper {
+    grid-area: header;
+    background: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}

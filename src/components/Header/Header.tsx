@@ -1,12 +1,13 @@
 import React from "react";
+import style from './Header.module.css'
 
 const Header = () => {
     return (
-        <div className={"testDiv"}>header
-            <div className={"testDiv"}>logo</div>
-            <div className={"testDiv"}>search</div>
-            <div className={"testDiv"}>login</div>
-        </div>
+        <header className={style.wrapper}>
+            <div>logo</div>
+            <div>search</div>
+            <div>login</div>
+        </header>
     )
 };
 
