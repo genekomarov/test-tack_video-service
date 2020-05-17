@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/test-task_video-service/static/css/main.d56ed8cb.chunk.css",
-    "main.js": "/test-task_video-service/static/js/main.2f08113e.chunk.js",
-    "main.js.map": "/test-task_video-service/static/js/main.2f08113e.chunk.js.map",
+    "main.js": "/test-task_video-service/static/js/main.e0b0ab3c.chunk.js",
+    "main.js.map": "/test-task_video-service/static/js/main.e0b0ab3c.chunk.js.map",
     "runtime-main.js": "/test-task_video-service/static/js/runtime-main.8ceba67c.js",
     "runtime-main.js.map": "/test-task_video-service/static/js/runtime-main.8ceba67c.js.map",
-    "static/js/2.d2ae3cfe.chunk.js": "/test-task_video-service/static/js/2.d2ae3cfe.chunk.js",
-    "static/js/2.d2ae3cfe.chunk.js.map": "/test-task_video-service/static/js/2.d2ae3cfe.chunk.js.map",
+    "static/js/2.e938dd65.chunk.js": "/test-task_video-service/static/js/2.e938dd65.chunk.js",
+    "static/js/2.e938dd65.chunk.js.map": "/test-task_video-service/static/js/2.e938dd65.chunk.js.map",
     "index.html": "/test-task_video-service/index.html",
-    "precache-manifest.a71f2c0aba6ae9f72b3dec6f8f33aa42.js": "/test-task_video-service/precache-manifest.a71f2c0aba6ae9f72b3dec6f8f33aa42.js",
+    "precache-manifest.5e1c29c4c3bc4cd68afcf3240689c138.js": "/test-task_video-service/precache-manifest.5e1c29c4c3bc4cd68afcf3240689c138.js",
     "service-worker.js": "/test-task_video-service/service-worker.js",
     "static/css/main.d56ed8cb.chunk.css.map": "/test-task_video-service/static/css/main.d56ed8cb.chunk.css.map",
-    "static/js/2.d2ae3cfe.chunk.js.LICENSE.txt": "/test-task_video-service/static/js/2.d2ae3cfe.chunk.js.LICENSE.txt",
+    "static/js/2.e938dd65.chunk.js.LICENSE.txt": "/test-task_video-service/static/js/2.e938dd65.chunk.js.LICENSE.txt",
     "static/media/fire.png": "/test-task_video-service/static/media/fire.3ece2223.png",
     "static/media/missiya-nevypolnima-posledstviya.jpg": "/test-task_video-service/static/media/missiya-nevypolnima-posledstviya.97283e55.jpg",
     "static/media/poisk.jpg": "/test-task_video-service/static/media/poisk.ac473567.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8ceba67c.js",
-    "static/js/2.d2ae3cfe.chunk.js",
+    "static/js/2.e938dd65.chunk.js",
     "static/css/main.d56ed8cb.chunk.css",
-    "static/js/main.2f08113e.chunk.js"
+    "static/js/main.e0b0ab3c.chunk.js"
   ]
 }
