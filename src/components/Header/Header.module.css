@@ -1,6 +1,59 @@
 .wrapper {
     grid-area: header;
-    background: antiquewhite;
     display: flex;
     justify-content: space-between;
+    height: 80px;
 }
+
+.logo {
+    /*background-color: #2F80ED;*/
+    display: flex;
+    align-items: center;
+    flex-basis: 33%;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 16px;
+}
+
+.search {
+    /*background-color: #56CCF2;*/
+    flex-basis: 33%;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+
+.searchField {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.searchButton {
+    margin-left: 10px;
+    color: #E5261E;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.login {
+    /*background-color: #F2C94C;*/
+    flex-basis: 33%;
+    align-self: center;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.logout {
+    margin-left: 10px;
+    color: #E5261E;
+    cursor: pointer;
+}
+

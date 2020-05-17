@@ -1,6 +1,6 @@
 .wrapper {
     grid-area: tags;
-    background: burlywood;
+    /*background: burlywood;*/
     display: flex;
     justify-content: center;
 }
@@ -16,6 +16,7 @@
 
 .tab div {
     padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .tab {

@@ -1,15 +1,46 @@
 .wrapper {
     grid-area: main;
-    background: ghostwhite;
+    /*background: ghostwhite;*/
     overflow-y: scroll;
 }
 
 .wrapper div {
-    height: 100px;
-    background: cadetblue;
+
 }
 
 .channel {
     height: 162px;
     margin: 16px 20px;
+    display: flex;
+    background: #F2F2F2;
+}
+
+.channelLogo img {
+
+}
+
+.channelLogo {
+    flex-basis: 30%;
+    align-self: center;
+    text-align: center;
+}
+
+.program {
+    display: flex;
+}
+
+.time {
+    margin-right: 10px;
+}
+
+.schedule {
+    align-self: center;
+}
+
+.schedule h3 {
+    margin-top: 0;
+}
+
+.activeProgram {
+    color: #E5261E;
 }

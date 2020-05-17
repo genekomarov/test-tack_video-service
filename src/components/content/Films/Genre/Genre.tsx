@@ -1,5 +1,9 @@
 import React from "react";
 import style from './Genre.module.css'
+import comedyEmoji from '../../../../assets/comedy.png'
+import dramaEmoji from '../../../../assets/drama.png'
+import fantasyEmoji from '../../../../assets/fantasy.png'
+import horrorEmoji from '../../../../assets/horror.png'
 
 const Genre = () => {
     return (
@@ -8,23 +12,23 @@ const Genre = () => {
             <div className={style.genre}>
 
                 <div className={style.genreItem}>
-                    <img src="https://w7.pngwing.com/pngs/1002/722/png-transparent-emoji-smiley-drawing-emoticon-smiley-miscellaneous-english-nose.png" alt=""/>
-                    <div>Название Жанра</div>
+                    <img src={comedyEmoji} alt=""/>
+                    <div>Комедия</div>
                 </div>
 
                 <div className={style.genreItem}>
-                    <img src="https://w7.pngwing.com/pngs/1002/722/png-transparent-emoji-smiley-drawing-emoticon-smiley-miscellaneous-english-nose.png" alt=""/>
-                    <div>Название Жанра</div>
+                    <img src={dramaEmoji} alt=""/>
+                    <div>Драма</div>
                 </div>
 
                 <div className={style.genreItem}>
-                    <img src="https://w7.pngwing.com/pngs/1002/722/png-transparent-emoji-smiley-drawing-emoticon-smiley-miscellaneous-english-nose.png" alt=""/>
-                    <div>Название Жанра</div>
+                    <img src={fantasyEmoji} alt=""/>
+                    <div>Фонтастика</div>
                 </div>
 
                 <div className={style.genreItem}>
-                    <img src="https://w7.pngwing.com/pngs/1002/722/png-transparent-emoji-smiley-drawing-emoticon-smiley-miscellaneous-english-nose.png" alt=""/>
-                    <div>Название Жанра</div>
+                    <img src={horrorEmoji} alt=""/>
+                    <div>Ужасы</div>
                 </div>
                 
                 

@@ -9,7 +9,7 @@
 }
 
 .movieItem {
-
+    margin-bottom: 20px;
 }
 
 .filmImage {
@@ -17,4 +17,41 @@
     height: 370px;
     border-radius: 8px;
     background: cadetblue;
+    position: relative;
+
+}
+
+.filmImage:hover::before {
+    display: inline-block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    opacity: .8;
+    border-radius: 8px;
+}
+
+.description {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    padding: 16px;
+    box-sizing: border-box;
+    color: #F2F2F2;
+    opacity: 0;
+}
+
+.filmImage:hover .description {
+    opacity: 1;
+}
+
+.headerImg {
+    height: 24px;
+    position: relative;
+    bottom: -2px;
+    margin-right: 5px;
+}
+
+.filmName {
+    margin-top: 10px;
 }

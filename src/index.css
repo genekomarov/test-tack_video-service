@@ -4,12 +4,12 @@
   .App { width: 1200px; }
 }
 
-@media (min-width: 600px) and (max-width: 1199px){
-  .App { width: 580px; }
+@media (min-width: 625px) and (max-width: 1199px){
+  .App { width: 600px; }
 }
 
 @media (min-width: 300px) and (max-width: 599px){
-  .App { width: 300px; }
+  .App { width: 280px; }
 }
 
 body {
