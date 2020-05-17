@@ -1,14 +1,10 @@
-.testDiv {
-  margin-left: 20px;
-}
-
 .App {
   margin: 0 auto;
-  width: 1200px;
   display: grid;
-  grid-template-rows: 60px 30px auto 60px;
+  grid-template-rows: min-content min-content 1fr min-content;
   grid-template-areas: "header" "tags" "main" "footer";
   min-height: 100vh;
+  max-height: 100vh;
   background: cadetblue;
 }
 

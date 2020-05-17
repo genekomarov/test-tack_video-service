@@ -1,0 +1,29 @@
+.genre {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.genreItem {
+    width: 280px;
+    height: 208px;
+    border-radius: 8px;
+    background: cadetblue;
+    position: relative;
+}
+
+.genreItem img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.genreItem div {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translate(-50%, 0);
+}

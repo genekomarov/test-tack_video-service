@@ -1,0 +1,15 @@
+.wrapper {
+    grid-area: main;
+    background: ghostwhite;
+    overflow-y: scroll;
+}
+
+.wrapper div {
+    height: 100px;
+    background: cadetblue;
+}
+
+.channel {
+    height: 162px;
+    margin: 16px 20px;
+}

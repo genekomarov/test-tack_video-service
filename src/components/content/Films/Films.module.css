@@ -1,0 +1,13 @@
+.wrapper {
+    grid-area: main;
+    background: ghostwhite;
+    overflow-y: scroll;
+}
+
+.wrapper > div {
+    margin-bottom: 20px;
+}
+
+.wrapper > div:last-child {
+    margin-bottom: 40px;
+}

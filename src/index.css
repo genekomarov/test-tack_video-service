@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@media (min-width: 1200px) {
+  .App { width: 1200px; }
+}
+
+@media (min-width: 600px) and (max-width: 1199px){
+  .App { width: 580px; }
+}
+
+@media (min-width: 300px) and (max-width: 599px){
+  .App { width: 300px; }
+}
+
 body {
   margin: 0;
   font-family: 'Rubik', sans-serif;

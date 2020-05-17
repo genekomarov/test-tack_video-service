@@ -1,5 +1,25 @@
 .wrapper {
     grid-area: footer;
-    background: darkgrey;
+    background: #F2F2F2;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 100px 1fr;
 }
+
+.logo {
+    width: 32px;
+    height: 64px;
+    margin: 28px;
+}
+
+address {
+    align-self: center;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.telephones a {
+    text-decoration: none;
+    color: black;
+}
+

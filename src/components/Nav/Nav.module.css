@@ -10,4 +10,22 @@
 
     font-weight: 500;
     font-size: 28px;
+
+    text-decoration: none;
+}
+
+.tab div {
+    padding-bottom: 5px;
+}
+
+.tab {
+    color: black;
+}
+
+.tab.active {
+    color: #E5261E;
+}
+
+.active div {
+    border-bottom: solid red 1px;
 }
