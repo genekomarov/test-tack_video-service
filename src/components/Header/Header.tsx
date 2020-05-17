@@ -1,6 +1,7 @@
 import React from "react";
 import style from './Header.module.css'
 import videoserviceLogo from '../../assets/videoserviceLogo.svg'
+import Auth from "./Auth/Auth";
 
 const Header = () => {
     return (
@@ -13,10 +14,9 @@ const Header = () => {
                 <input className={style.searchField} type="text" placeholder={"Поиск ..."}/>
                 <span className={style.searchButton}>Найти</span>
             </div>
-            <div className={style.login}>
-                <span className={style.userName}>Констанин К.</span>
-                <span className={style.logout}>Выйти</span>
-            </div>
+
+            <Auth />
+
         </header>
     )
 };

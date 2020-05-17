@@ -1,3 +1,7 @@
+@media (min-width: 300px) and (max-width: 599px){
+    .wrapper { overflow-y: unset !important; }
+}
+
 .wrapper {
     grid-area: main;
     /*background: ghostwhite;*/

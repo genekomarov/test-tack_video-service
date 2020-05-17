@@ -10,14 +10,16 @@
 
 .movieItem {
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .filmImage {
     width: 280px;
     height: 370px;
     border-radius: 8px;
-    background: cadetblue;
+    /*background: cadetblue;*/
     position: relative;
+    background-size: cover;
 
 }
 
