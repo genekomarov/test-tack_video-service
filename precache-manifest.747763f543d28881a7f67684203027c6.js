@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ef95438e167557ba71372b93606d823",
+    "revision": "be6b524ffffa035d0e12e15de2d13a2a",
     "url": "/test-task_video-service/index.html"
   },
   {
-    "revision": "1dc098e0dc1fe205abdf",
-    "url": "/test-task_video-service/static/css/3.d05369b8.chunk.css"
+    "revision": "8fcc22dd403d55b4b15a",
+    "url": "/test-task_video-service/static/css/3.0d53e4eb.chunk.css"
   },
   {
-    "revision": "a87b6d622624e277664d",
-    "url": "/test-task_video-service/static/css/4.69a9f438.chunk.css"
+    "revision": "9222ba954be0a5302a3c",
+    "url": "/test-task_video-service/static/css/4.b5aae505.chunk.css"
   },
   {
-    "revision": "4c6552427df183a5f9ea",
-    "url": "/test-task_video-service/static/css/main.369f1076.chunk.css"
+    "revision": "d8e583fecaa24ca1165f",
+    "url": "/test-task_video-service/static/css/main.07d63551.chunk.css"
   },
   {
     "revision": "28c82d91471b957850d8",
@@ -24,11 +24,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test-task_video-service/static/js/2.557834a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1dc098e0dc1fe205abdf",
+    "revision": "8fcc22dd403d55b4b15a",
     "url": "/test-task_video-service/static/js/3.bad0fe0d.chunk.js"
   },
   {
-    "revision": "a87b6d622624e277664d",
+    "revision": "9222ba954be0a5302a3c",
     "url": "/test-task_video-service/static/js/4.39c2244d.chunk.js"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test-task_video-service/static/js/4.39c2244d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c6552427df183a5f9ea",
+    "revision": "d8e583fecaa24ca1165f",
     "url": "/test-task_video-service/static/js/main.40d004b5.chunk.js"
   },
   {
-    "revision": "4876fb739923733272a3",
-    "url": "/test-task_video-service/static/js/runtime-main.ff7a1b0e.js"
+    "revision": "e5fe3e0739f5c49272ab",
+    "url": "/test-task_video-service/static/js/runtime-main.1a29ec42.js"
   },
   {
     "revision": "3ece22232a49039e9b888150dd1086da",
