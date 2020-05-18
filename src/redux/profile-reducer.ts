@@ -3,11 +3,15 @@ import {get_cookie} from "../helpers/cookie";
 
 const SET_USER_NAME = 'profile/SET_USER_NAME';
 
-const initialState = {
-    userName: "---"
+type initialState = {
+    userName: string | null
+}
+
+const initialState: initialState = {
+    userName: null
 };
 
-const profileReducer = (state: any = initialState, action: any) => {
+const profileReducer = (state = initialState, action: any): initialState => {
     switch (action.type) {
         case SET_USER_NAME:
             return {
@@ -20,14 +24,19 @@ const profileReducer = (state: any = initialState, action: any) => {
     }
 };
 
-export const setUserName = (userName: string) => ({
+type setUserNameActionType = {
+    type: typeof SET_USER_NAME,
+    userName: string
+}
+
+export const setUserName = (userName: string): setUserNameActionType => ({
     type: SET_USER_NAME,
     userName
 });
 
 
 
-export const getUserName = () => (dispatch: Function) => {
+export const getUserName = () => (dispatch: any) => {
     let userNameCookie = get_cookie('username');
 
     userNameCookie === null
@@ -40,11 +49,6 @@ export const saveUserName = (userName: string) => (dispatch: Function) => {
     document.cookie = `username=${userName}`;
     dispatch(getUserName());
 
-    /*let userNameCookie = get_cookie('username');
-
-    userNameCookie === null
-        ? dispatch(setUserName("---"))
-        : dispatch(setUserName(userNameCookie));*/
 };
 
 export default profileReducer;
