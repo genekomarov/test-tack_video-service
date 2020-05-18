@@ -1,47 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51297095c94c04c0bb35d70c2b686096",
+    "revision": "4ef95438e167557ba71372b93606d823",
     "url": "/test-task_video-service/index.html"
   },
   {
-    "revision": "5a02a0ec17c03741dd77",
+    "revision": "1dc098e0dc1fe205abdf",
     "url": "/test-task_video-service/static/css/3.d05369b8.chunk.css"
   },
   {
-    "revision": "0b129139329ded2d02e6",
+    "revision": "a87b6d622624e277664d",
     "url": "/test-task_video-service/static/css/4.69a9f438.chunk.css"
   },
   {
-    "revision": "8f671821cd81b2936ced",
+    "revision": "4c6552427df183a5f9ea",
     "url": "/test-task_video-service/static/css/main.369f1076.chunk.css"
   },
   {
-    "revision": "778f7d479b020a92b499",
-    "url": "/test-task_video-service/static/js/2.ee1cb33f.chunk.js"
+    "revision": "28c82d91471b957850d8",
+    "url": "/test-task_video-service/static/js/2.557834a1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/test-task_video-service/static/js/2.ee1cb33f.chunk.js.LICENSE.txt"
+    "url": "/test-task_video-service/static/js/2.557834a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a02a0ec17c03741dd77",
-    "url": "/test-task_video-service/static/js/3.92bc372b.chunk.js"
+    "revision": "1dc098e0dc1fe205abdf",
+    "url": "/test-task_video-service/static/js/3.bad0fe0d.chunk.js"
   },
   {
-    "revision": "0b129139329ded2d02e6",
-    "url": "/test-task_video-service/static/js/4.314f803d.chunk.js"
+    "revision": "a87b6d622624e277664d",
+    "url": "/test-task_video-service/static/js/4.39c2244d.chunk.js"
   },
   {
     "revision": "81896c98bac7b5b16ab1d3790da5b937",
-    "url": "/test-task_video-service/static/js/4.314f803d.chunk.js.LICENSE.txt"
+    "url": "/test-task_video-service/static/js/4.39c2244d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8f671821cd81b2936ced",
-    "url": "/test-task_video-service/static/js/main.3481b4d5.chunk.js"
+    "revision": "4c6552427df183a5f9ea",
+    "url": "/test-task_video-service/static/js/main.40d004b5.chunk.js"
   },
   {
-    "revision": "7b252f509690528e78a9",
-    "url": "/test-task_video-service/static/js/runtime-main.4ef1f906.js"
+    "revision": "4876fb739923733272a3",
+    "url": "/test-task_video-service/static/js/runtime-main.ff7a1b0e.js"
   },
   {
     "revision": "3ece22232a49039e9b888150dd1086da",
